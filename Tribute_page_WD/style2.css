@@ -1,0 +1,96 @@
+.imgt{
+    float: right;
+    width: 60%;
+    height: 100vh;
+    background-color: rgb(9, 44, 112);
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    
+}
+h3{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar{
+    padding: 5px;
+    margin: 2px;
+    background-color: rgb(9, 44, 112);
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    
+
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px 30px;
+}
+button{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(248, 50, 32);
+    color: blanchedalmond;
+}
+.imgt p{
+    color:#fff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+.info p{
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding: 10Px;
+    margin: 20 px;
+}
+img{
+    width: 7cm;
+    right: 8cm;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    margin: 30px;
+   
+}
+
+.info{
+    float: left;
+    overflow:auto;
+    border: 1px solid black;
+    width: 39%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    
+}
+.block{
+    width: 100%;
+    height: 100vh;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    margin-right:20px ;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+    
+}
+li:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+    background-color: rgba(234, 101, 57, 0.849);
+}
